@@ -11,6 +11,7 @@
             --accent-color: #f3e5d8;
             --text-color: #333;
             --light-bg: #f9f7f4;
+            --border-radius: 8px;
         }
 
         body {
@@ -29,7 +30,7 @@
         }
 
         header {
-            background: linear-gradient(rgba(26, 62, 114, 0.8), rgba(26, 62, 114, 0.8)),
+            background: rgb(6, 66, 100),
                         url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400"><rect fill="%23f3e5d8" width="1200" height="400"/><polygon fill="%23d4a017" points="0,400 400,0 800,0 1200,400"/></svg>');
             background-size: cover;
             background-position: center;
@@ -80,9 +81,10 @@
 
         .program-section {
             flex: 2;
-            background: rgb(182, 214, 240);
+            background: rgb(184, 215, 240);
             padding: 30px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            border-radius: var(--border-radius);
         }
 
     
@@ -94,10 +96,11 @@
         }
 
         .orchestra-description {
-            background: rgb(182, 214, 240);
+            background: rgb(184, 215, 240);
             padding: 25px;
             box-shadow: 0 5px 15px rgba(0,0,0,0.1);
             margin-bottom: 30px;
+            border-radius: var(--border-radius);
         }
 
         .sponsors {
